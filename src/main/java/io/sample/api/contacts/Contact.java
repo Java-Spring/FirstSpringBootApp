@@ -1,7 +1,12 @@
 package io.sample.api.contacts;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Contact {
 	
+	@Id
 	private Integer id;
 	private String first_name;
 	private String last_name;
